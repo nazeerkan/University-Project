@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../Project/images/logo.png" alt="This is the logo for Eduford University"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+
+<!-- -------------Contact Us ---------------- --> 
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4761.578893604778!2d-2.268079750770135!3d53.364923018581955!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1688654258085!5m2!1sen!2suk" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="Contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Manchester, UK</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>0123456789</h5>
+                    <p>Monday to Friday, 9AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@abddefg.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+
+<div class="Contact-col">
+
+    
+    
+    <form class="comment-form">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+         </form>
+     </div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- -------- Footer --------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The Eduford University dates back to 1898 and was founded as a university in 1992. It currently has 13,500 students from 135 countries enrolled, and the campuses at Docklands and Stratford are located in East London, 
+        close to the major financial centre of Canary Wharf and the region chosen to host the 2012 Olympics. The Docklands Campus was London's first new university campus in 50 years.
+        Eduford was ranked 2nd in the UK for teaching quality (Times Higher Education Young University Rankings), as well as featuring in the world’s top 200 young universities (Times Higher Education Young University Rankings). 
+        <br>In addition, the University has been voted most improved university over the last decade in the UK (Times Higher Education).
+        Academic strengths include Architecture and the Visual Arts, Civil Engineering, Cultural and Media Studies, Education, Psychology, Computer Science, BBA, Sports Science. 
+        The University is well known for sports, and has had Olympic and Paralympic projects including research, student involvement and sporting partnerships underway since 2005.
+    </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+         <p>Made <i class="fa fa-heart-o"></i>by Nazeer</p>
+</section>
+
+
+
+
+
+
+
+<!-- ---------------JavaScript for Toggle Menu----------------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200";
+        }
+
+        
+    </script>
+    
+</body>
+</html>
