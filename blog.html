@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../Project/images/logo.png" alt="This is the logo for Eduford University"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+
+    </section>
+
+
+
+
+<!-- -------------Blog Page Content---------------- -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="../Project/images/certificate.jpg" alt="This is one of our graduated student's picture holding her degree"></a>
+            <h2>Our Certificate & Online Programs For 2023</h2>
+            <p>Open up a world wide opportunities with our online BSc (Hons) Computer Science programme. Gain the skills needed for diverse IT careers. Invest in your future with a degree in computer science the smartest move for global job prospects.
+                When you study online with LIBF, you’ll benefit from over 140 years of teaching expertise, delivered by industry experts, and a schedule that you can fit around your life, wherever you are in the world.
+                <br>Our innovative online learning hub ensures you have everything you need to hand from digital learning resources to personal and academic support. 
+                <br><br>we offer you the opportunity to study your way. Want to study your course entirely online from anywhere in the world? Then our online learning courses offer you the chance to do just that. Plus, you’ll have the flexibility to create your own study schedule that fits around your personal and professional life.  
+                <br>If you’d prefer to attend lectures and tutorials at one of our study centres in London, Paris, Germany, then our blended learning courses build in two days a week of face-to-face tuition with your course tutor and classmates, complemented by around 25 hours of online study.
+            </p>
+
+                    <div class="comment-box">
+                        
+                        <h3>Leave a comment</h3>
+                        
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post comment</button>
+                        </form>
+
+
+                    </div>
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>28</span>
+        </div> <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Comouter Science</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>30</span>
+        </div>
+        
+      </div>
+    </div>
+
+</section>
+
+
+
+
+<!-- -------- Footer --------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Mario is a character created by Japanese video game designer Shigeru Miyamoto. 
+        <br> Enroll for out various online courses from anywhere around the world.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+         <p>Made with <i class="fa fa-heart-o"></i>by Nazeer</p>
+</section>
+
+
+<!-- ---------------JavaScript for Toggle Menu----------------- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200";
+    }
+
+    
+</script>
+
+
+
+
+
+    
+</body>
+</html>
